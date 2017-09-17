@@ -1,1 +1,1 @@
-mjarzebkowsk.github.io
+mjarzebkowski.github.io
