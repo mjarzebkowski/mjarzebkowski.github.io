@@ -46,3 +46,7 @@ function MJsetLangEN(){
     $('.pl').hide();
     $('.en').show();
 };
+
+MJcleanAll();
+MJsetAboutMe();
+MJsetLangEN();
