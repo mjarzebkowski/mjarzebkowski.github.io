@@ -23,22 +23,23 @@
                 <div class="collapse navbar-collapse" id="navbarsExampleContainer">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                          <a class="nav-link" onclick="setAboutMe()" href="#">O Mnie</a>
+                          <a class="nav-link pl" onclick="MJsetAboutMe()" href="#">O Mnie</a>
+                          <a class="nav-link en" onclick="MJsetAboutMe()" href="#">About Me</a>                          
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" onclick="MJsetFrontEnd()" href="#">Front-End</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" onclick="setFrontEnd()" href="#">Front-End</a>
+                            <a class="nav-link" onclick="MJsetBackEnd()" href="#">Back-End</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" onclick="setBackEnd()" href="#">Back-End</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" onclick="setAdministration()" href="#">Inne Kody</a>
-                        </li>
+                            <a class="nav-link" onclick="MJsetAdministration()" href="#">Inne Kody</a>                           
+                        </li> -->
                         <li id="lang" class="nav-item dropdown disabled right">
                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">lang</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdown02">
-                                    <a class="dropdown-item" href="#">PL</a>
-                                    <a class="dropdown-item" href="#">EN</a>
+                                    <a class="dropdown-item"  onclick="MJsetLangPL()" href="#">PL</a>
+                                    <a class="dropdown-item"  onclick="MJsetLangEN()" href="#">EN</a>
                             </div>
                         </li>
                     </ul>
@@ -50,7 +51,7 @@
     <div class="container" id="MainContent">
 
 <div class="pl" style="display: none;">
-    <div class="aboutme" style="display: none;">
+    <div class="MJaboutme container" style="display: none;">
             Witaj, nazywam się Maciej Jarzębkowski. <br><br>
             Od kilku lat jestem związany z branżą IT.
             Jestem studentem Informatyki Stosowanej, na wydziale Inżynierii Metali i informatyki przemysłowej.<br>
@@ -63,14 +64,14 @@
             <br><br>
             Prywatnie jestem żeglarzem i fanem sushi. 
     </div>
-    <div class="frontend" style="display: none;">Frontend PL</div>
-    <div class="backend" style="display: none;">Backend PL</div>
-    <div class="electronics" style="display: none;">Elektronika PL</div>
-    <div class="administration" style="display: none;">Administracja PL</div>
-    <div class="hacking" style="display: none;">Hacking PL</div>
+    <div class="MJfrontend container" style="display: none;">Frontend PL</div>
+    <div class="MJbackend container" style="display: none;">Backend PL</div>
+    <div class="MJelectronics container" style="display: none;">Elektronika PL</div>
+    <div class="MJadministration container" style="display: none;">Administracja PL</div>
+    <div class="MJhacking container" style="display: none;">Hacking PL</div>
 </div>
-<div class="en" style="display: initial;">
-    <div class="aboutme" style="display: initial;"> 
+<div class="en" style="display: none;">
+    <div class="MJaboutme" style="display: initial;"> 
     Hello, my name is Maciej Jarzębkowski. <br> <br>
     For several years I have been involved with the IT industry.
     I am a student of Applied Computer Science, Faculty of Metals Engineering and Industrial Computer Science
@@ -83,11 +84,11 @@
     <br> <br>
     I am personally a sailor and a fan of sushi.
     </div>
-    <div class="frontend" style="display: none;">Frontend EN</div>
-    <div class="backend" style="display: none;">Backend EN</div>
-    <div class="electronics" style="display: none;">Elektronika EN</div>
-    <div class="administration" style="display: none;">Administracja EN</div>
-    <div class="hacking" style="display: none;">Hacking EN</div>
+    <div class="MJfrontend container" style="display: none;">Frontend EN</div>
+    <div class="MJbackend container" style="display: none;">Backend EN</div>
+    <div class="MJelectronics container" style="display: none;">Elektronika EN</div>
+    <div class="MJadministration container" style="display: none;">Administracja EN</div>
+    <div class="MJhacking container" style="display: none;">Hacking EN</div>
 </div>
     </div>
     <footer class="footer">
