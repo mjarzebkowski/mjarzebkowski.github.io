@@ -48,10 +48,7 @@ function MJsetLangEN(){
 };
 
 MJcleanAll();
-<<<<<<< HEAD
-=======
 MJsetLangPL();
 MJsetLangEN();
->>>>>>> Allbuttons
 MJsetAboutMe();
 MJsetLangEN();
